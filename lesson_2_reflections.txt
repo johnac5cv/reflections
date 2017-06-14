@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
-Creates a hidden file ".git" that holds the metadata necessary for git to handle the directory as a repository.
+"git init" creates a hidden file ".git" in a normal directory. That file holds the metadata necessary for git to handle the directory as a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A Working directory, even if identified as a repository, may contain untracked files (as shown by git status). "git add" registers files in .git, placing them into a staging area, awaiting the commit step to actually place them into the repository.
+
+git commit (with no arguments) starts up the associated text editor to more easily create a commit description. Add the description, save the file, and exit the editor to complete the commit.
 
