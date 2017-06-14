@@ -6,3 +6,11 @@ A Working directory, even if identified as a repository, may contain untracked f
 
 git commit (with no arguments) starts up the associated text editor to more easily create a commit description. Add the description, save the file, and exit the editor to complete the commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+git diff --staged will show changes stages but not yet committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branches help try out major changes without affecting the master branch, until you're ready to try a merge with the master branch.
+
+How do the diagrams help you visualize the branch structure?
+It shows parents, and which the commit history, and which commits are not reachable by virture of being branched off the master branch.
