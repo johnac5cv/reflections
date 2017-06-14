@@ -1,0 +1,22 @@
+Why is comparing files a good thing?
+Comparing files to find differences is a good thing! You can spot errors that cause a new version t behave improperly.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+See WHEN changes were made, and why (if that is included).
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Manual commits: saves working versions, rather than intermediate versions.
+Auto commits would cover you if you forgot.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is set up to work with projects with many files that are often interdpendent.
+
+How can you use the commands git log and git diff to view the history of files?
+"git log" lists the log file of changes, with commit ID'saved.
+"git diff commit#1 commit#2" shows the differences between the two commits
+
+How might using version control make you more confident to make changes that could break something?
+You can always "git checkout nnnn" back to a previous version. So I'm not limited to tiny baby-step changes (for fear of breaking the whole app).
+
+Now that you have your workspace set up, what do you want to try using Git for?
+For managing the TT-datamining project software that Paul Horwitz is developing.
