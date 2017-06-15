@@ -14,3 +14,7 @@ branches help try out major changes without affecting the master branch, until y
 
 How do the diagrams help you visualize the branch structure?
 It shows parents, and which the commit history, and which commits are not reachable by virture of being branched off the master branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Combing the changes AND the history of he changes
+
